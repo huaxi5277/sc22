@@ -1,0 +1,21 @@
+:global {
+    .top-nav{
+        position: relative;
+        .go-collaborate{
+            position: absolute;
+            left:  130px; 
+        }
+        .go-combat{
+            position: absolute;
+            left:  220px;
+        }
+        .go-video{
+            position: absolute;
+            left:  330px;
+        }
+        .users{
+            position: absolute;
+            right:  0px;
+        }
+    }
+  }

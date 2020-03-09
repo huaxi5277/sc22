@@ -1,0 +1,120 @@
+:global {
+    .login-wrap{
+        width: 100%;
+        position: relative;
+        height: auto;
+        min-height: 1100px;
+        padding : 0;
+        background: url('../../assets/login-background-1280.4JLnG.jpg') no-repeat ;
+        background-position: center;
+        background-size: cover;
+        .login-wrap-title{
+            width: 100%;
+            height: 105px;
+            position: relative;
+            top: 55px;
+            margin-bottom: 40px;
+            .bg-login-wrap-title{
+                width: 200px;
+                height: 105px;
+                background: url('../../assets/blizzard-default.1C4OH.png') no-repeat ;
+                background-position: center;
+                background-size: cover;
+                margin: 0 auto;
+            }
+        }
+        .login {
+            position: relative;
+            top: 40px;
+          .account-form{
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              flex-direction: column;
+              align-items: center;
+              .ant-input{
+                  width: 380px;
+                  background-color: rgba(0,0,0,0.5);
+                  border: 1px solid rgba(255,255,255,0.3);
+                  color: #ffffff;
+                  font-size: 14px;
+              }
+          }
+        }
+        .footer-wrap{
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            top: 230px;
+            width: 600px;
+            height: 158px;
+            .footer-links{
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                .nav-item,span{
+                    margin-right: 15px;
+                    color:#7b7b7b ;
+                }
+            }
+            .footer-link2s{
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                margin-top: 10px;
+                .nav-item,span{
+                    margin-right: 15px;
+                    color:#7b7b7b ;
+                }
+            }
+            .footer-link3s{
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                margin-top: 10px;
+                .nav-item,span{
+                    margin-right: 15px;
+                    color:#7b7b7b ;
+                }
+            }
+            .copyright{
+                text-align: center;
+                padding: 8px 0;
+               color: rgba(255, 255, 255, 0.3);
+               font-size: 12px;
+            }
+            .nav-footer-icon-list{
+                padding: 0;
+                margin: 0 0 33px 30px;
+                line-height: 25px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                list-style: none;
+                .nav-footer-icon-link{
+                    width: 28px;
+                    height: 28px;
+                    display: inline-block;
+                    background-repeat: no-repeat;
+                    margin-right: 30px;
+                }
+                .footer-icon-cyberpolice{
+                    background: url("../../assets/footer-icon-cyberpolice.4aTv1.gif") no-repeat;
+                }
+                .footer-icon-zx100{
+                    background: url("https://www.battlenet.com.cn/login/static/images/nav-client/footer-icon-zx100.3ZaAz.gif") no-repeat;
+                }
+                .footer-icon-sgs{
+                    background: url("https://www.battlenet.com.cn/login/static/images/nav-client/footer-icon-sgs.3fzfU.gif") no-repeat;
+                }
+                .footer-icon-shjbzx{
+                    background: url("https://www.battlenet.com.cn/login/static/images/nav-client/footer-icon-shjbzx.3IShX.gif") no-repeat;
+                }
+            }
+        }
+    }
+}
